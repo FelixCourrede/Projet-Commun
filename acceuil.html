@@ -1,47 +1,68 @@
 <style>
-    head.titre{
-        background-color: rgb(245,102,102);
-    }
-    .Trouge{
-        color: red;
-    }
-    .home{
-        float: right;
-        text-align: right;
-        border-width: 0;
-        background-color:rgb(245,102,102) ;
-    }
-        .home:hover{
-        opacity: 0.8 ;
-        }
-        .home:active{
-        opacity:0.5;
-        }
-    .bienvenue{
+body{
+    width: available;
+    height: available;
+}
+
+.left-background{
+    width: 15%;
+    min-width: 20px;
+    height: available;
+    min-height: 400px;
+    float: left;
+    background-color: rgb(245,102,102) ;
+    border-collapse: collapse;
+}
+
+.coeur{
+   width: 60%;
+   min-width: 800px;
+   height: available;
+   min-height: 650px;
+   float: left;
+   background-color: white;
+   border-collapse: collapse;
+}
+
+.right-background{
+    width: 15%;
+    height: 20;
+    float:right;
+    /*position: relative;*/
+    /*margin-left: 75%;*/
+    background-color: rgb(245,102,102) ;
+    border-collapse: collapse;
+    height: available;
+    min-height: 400px;
+}
+.bienvenue{
         background-color:rgb(245,102,102) ;
         font-weight: bolder;
         margin-left: 40;
         font-size: larger;
     }
-    .coeur{
-        position:relative; 
-        margin:0 auto 0 auto; 
-        width:1200px; 
-       /*background-color:#ffffff*/}
-    .left-background {
-        background-color:rgb(245,102,102); 
-        width:50%; 
-        height:30%; 
-        position:absolute; 
-        top:65; 
-        left: 8;}
-    .right-background {
-        background-color:rgb(245,102,102); 
-        width:50%; 
-        height:30%;
-        position:absolute; 
-        top:65; 
-        left: 49.35%;}
+
+.home{
+        float: right;
+        text-align: right;
+        border-width: 0;
+        background-color:rgb(245,102,102) ;
+    }
+.home:hover{
+        background-color: white ;
+        opacity: 0.8 ;
+        transition: 0.3s ;
+        }
+
+.home:active{
+        opacity:0.5;
+        }
+header{
+    width: available;
+    height: 100px;
+    border-collapse: collapse;
+    background-color: rgb(245,102,102) ;
+}
 </style>
 <html>
     <title> Acceuil</title>
