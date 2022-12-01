@@ -21,11 +21,25 @@
     .home:active{
         opacity:0.5;
     }
-
     .coeur{
-
-    }
-
+        position:relative; 
+        margin:0 auto 0 auto; 
+        width:1200px; 
+        background-color:#ffffff;}
+    .left-background {
+        background-color:rgb(245,102,102); 
+        width:50%; 
+        height:30%; 
+        position:absolute; 
+        top:60; 
+        left: 8;}
+    .right-background {
+        background-color:rgb(245,102,102); 
+        width:50%; 
+        height:30%;
+        position:absolute; 
+        top:60; 
+        left: 49.35%;}
 </style>
 
 <html>
@@ -37,16 +51,20 @@
             </button>
         </div>
     </head>
-    <body class="coeur">
-        
+    <body>
+        <div class="left-background"></div>
+        <div class="right-background"></div>
+        <div class="coeur">
             <p class="Par1">
-            le sida c'est pas très très <span class="Trouge">Rigolo!</span>
-        </p>
+                le sida c'est pas très très <span class="Trouge">Rigolo!</span>
+            </p>
 
-        <p class="Par2">
-            Faites attention a vous!
-        </p>
+            <p class="Par2">
+                Faites attention a vous
 
+            </p>
+
+        </div>
     </body>
 
 </html>
