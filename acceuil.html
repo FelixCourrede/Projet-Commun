@@ -1,10 +1,6 @@
 <style>
-    .titre{
-        text-align: center;
-        font-family:;
-        font-size: 50;
+    head.titre{
         background-color: rgb(245,102,102);
-        color:black;
     }
     .Trouge{
         color: red;
@@ -15,42 +11,52 @@
         border-width: 0;
         background-color:rgb(245,102,102) ;
     }
-    .home:hover{
+        .home:hover{
         opacity: 0.8 ;
-    }
-    .home:active{
+        }
+        .home:active{
         opacity:0.5;
+        }
+    .bienvenue{
+        background-color:rgb(245,102,102) ;
+        font-weight: bolder;
+        margin-left: 40;
+        font-size: larger;
     }
     .coeur{
         position:relative; 
         margin:0 auto 0 auto; 
         width:1200px; 
-        background-color:#ffffff;}
+       /*background-color:#ffffff*/}
     .left-background {
         background-color:rgb(245,102,102); 
         width:50%; 
         height:30%; 
         position:absolute; 
-        top:60; 
+        top:65; 
         left: 8;}
     .right-background {
         background-color:rgb(245,102,102); 
         width:50%; 
         height:30%;
         position:absolute; 
-        top:60; 
+        top:65; 
         left: 49.35%;}
 </style>
-
 <html>
-    <head>
-        <div class="titre">
-            Bienvenue dans le jeu!
-            <button href="acceuil.html", class="home">
+    <title> Acceuil</title>
+
+    <head class="titre">
+        <span class="bienvenue">
+            BIENVENUE
+        </span>
+        <button href="acceuil.html", class="home">
                 Home
-            </button>
-        </div>
+        </button>
     </head>
+
+
+
     <body>
         <div class="left-background"></div>
         <div class="right-background"></div>
@@ -58,13 +64,9 @@
             <p class="Par1">
                 le sida c'est pas très très <span class="Trouge">Rigolo!</span>
             </p>
-
             <p class="Par2">
                 Faites attention a vous
-
             </p>
-
         </div>
     </body>
-
 </html>
