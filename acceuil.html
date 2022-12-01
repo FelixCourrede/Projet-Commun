@@ -4,9 +4,15 @@ body{
     height: available;
 }
 
+/*.container{
+    width: available;
+    height: available;
+}*/
+
 .left-background{
     width: 15%;
     min-width: 20px;
+    height: 100%;
     height: available;
     min-height: 400px;
     float: left;
@@ -26,14 +32,14 @@ body{
 
 .right-background{
     width: 15%;
-    height: 20;
+    height: 100%;
     float:right;
+    height: available;
+    min-height: 400px;
     /*position: relative;*/
     /*margin-left: 75%;*/
     background-color: rgb(245,102,102) ;
     border-collapse: collapse;
-    height: available;
-    min-height: 400px;
 }
 .bienvenue{
         background-color:rgb(245,102,102) ;
@@ -51,9 +57,8 @@ body{
 .home:hover{
         background-color: white ;
         opacity: 0.8 ;
-        transition: 0.3s ;
+        transition: 0.3s ;x
         }
-
 .home:active{
         opacity:0.5;
         }
@@ -63,18 +68,19 @@ header{
     border-collapse: collapse;
     background-color: rgb(245,102,102) ;
 }
+
 </style>
 <html>
     <title> Acceuil</title>
 
-    <head class="titre">
+    <header class="titre">
         <span class="bienvenue">
             BIENVENUE
         </span>
         <button href="acceuil.html", class="home">
                 Home
         </button>
-    </head>
+    </header>
 
 
 
